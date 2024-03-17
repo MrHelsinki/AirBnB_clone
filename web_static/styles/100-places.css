@@ -98,4 +98,25 @@
 
 .places_amenities ul li {
     list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.wifi_logo, .pets_logo, .tv_logo{
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.wifi_logo {
+    background-image: url("../images/icon_wifi.png");
+}
+.tv_logo {
+    background-image: url("../images/icon_tv.png");
+}
+.pets_logo {
+    background-image: url("../images/icon_pets.png");
 }
